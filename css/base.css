@@ -1,0 +1,23 @@
+/* 公共样式*/
+.clearfix::after,
+.clearfix::before{
+    content: '';
+    display: table;
+    clear: both;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+body{
+    font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif!important;
+    background-color: rgba(253, 238, 255, 0.667);
+    min-width: 1226px;
+}
+
+.w{
+    /*固定容器宽度*/
+    width: 1226px;
+    /*居中*/
+    margin: 0 auto;
+}
